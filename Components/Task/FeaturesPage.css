@@ -1,0 +1,58 @@
+.features .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .features .container {
+      -webkit-box-orient: unset;
+      -webkit-box-direction: unset;
+          -ms-flex-direction: unset;
+              flex-direction: unset;
+    }
+  }
+  
+  .features-left {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .features-left {
+      margin-bottom: unset;
+    }
+  }
+  
+  .features-left img {
+    width: 100%;
+  }
+  
+  .features-right {
+    max-width: 428px;
+  }
+  
+  .features-list {
+    margin-top: 20px;
+  }
+  
+  .features-list li {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+  }
+  
+  .features-list li::before {
+    content: url("./images/check-icon-2.png");
+    position: relative;
+    top: 5px;
+    margin-right: 12px;
+  }

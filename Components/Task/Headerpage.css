@@ -1,0 +1,101 @@
+.header {
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .header {
+      background-color: #fff;
+    }
+  }
+  
+  .header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .header .nav {
+    display: none;
+  }
+  
+  .header .nav.show {
+    display: block;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .header .nav {
+      display: block;
+    }
+  }
+  
+  .header .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .header .nav .nav-item:not(:last-child) {
+    margin-right: 40px;
+  }
+  
+  .header .nav .nav-link:hover {
+    color: #f53838;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  .header-right .sign-in-btn {
+    color: #0b132a;
+    margin-right: 30px;
+    font-weight: 500;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .header-right {
+      display: block;
+    }
+  }
+  
+  .header .hamburger-menu {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .header .hamburger-menu {
+      display: none;
+    }
+  }
+  
+  .header .hamburger-menu img {
+    height: 100%;
+    width: 100%;
+  }
+  .btn--rounded-full {
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn--rounded-full a:hover{
+  border: 1px solid #f53838;
+}
+.btn--outlined {
+  border: 1px solid #f53838;
+  color: #f53838;
+}

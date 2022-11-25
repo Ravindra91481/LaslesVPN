@@ -1,0 +1,55 @@
+.subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 6rem 2rem;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .subscribe {
+      -webkit-box-orient: unset;
+      -webkit-box-direction: unset;
+          -ms-flex-direction: unset;
+              flex-direction: unset;
+      padding: 6rem 7rem;
+    }
+  }
+  
+  .subscribe-left {
+    max-width: 370px;
+  }
+  
+  .subscribe-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+   .subscribe-right a:hover{
+      border: 50px solid;
+      padding: 1.3rem 4.5rem;
+      color: white;
+      border-radius: 10px;
+      background-color: #f53838;
+    } 
+  
+  @media screen and (min-width: 992px) {
+    .subscribe-right {
+      width: unset;
+      margin-top: unset;
+    }
+  }

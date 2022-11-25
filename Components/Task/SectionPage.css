@@ -1,0 +1,48 @@
+section {
+    padding: 50px 0;
+  }
+.section-header {
+    margin: 0 auto 60px;
+    max-width: 270px;
+    text-align: center;
+  }
+.container{
+  width: 100%;
+
+}
+.hero-left a{
+  border: 2px solid;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #f53838;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 20px 40px rgb(245 56 56 / 35%)
+}
+.hero-left a:hover{
+  background-color: rgb(41, 32, 32);
+}
+  
+  @media screen and (min-width: 992px) {
+    .section-header {
+      max-width: 555px;
+    }
+  }
+ .hero-right img{
+  margin-left: 800px;
+ }
+  .section-title {
+    font-size: 2.6rem;
+    margin-bottom: 25px;
+    margin: 20px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .section-title {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .section-subtitle {
+    line-height: 30px;
+  }
